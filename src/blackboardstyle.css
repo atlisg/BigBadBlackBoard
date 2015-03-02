@@ -1,0 +1,91 @@
+* {
+	font-family: "consolas";
+}
+
+body {
+	background-color: #888888;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+	margin: 5px 5px;
+}
+
+.tbSeparate {
+	display: inline;
+}
+
+.tbButton {
+	text-decoration: none;
+	color: #ccc;
+	padding: 2px;
+	margin: 1px 1px 1px 1px;
+}
+
+.tbButtonActive {
+	text-decoration: none;
+	padding: 2px;
+	margin: 1px 1px 1px 1px;
+	background-color: darkgreen;
+}
+
+.tbButtonActive.cButton {
+	background-color: darkblue;
+}
+
+.pink {
+	color: pink;
+}
+
+.white {
+	color: white;
+}
+
+.green {
+	color: lightgreen;
+}
+
+.blue {
+	color: lightblue;
+}
+
+.tbButton.sButton:hover {
+	text-decoration: none;
+	padding: 2px;
+	border: solid 1px white;
+	margin: 0px 0px 0px 0px;
+	background-color: darkgreen;
+}
+
+.tbButton.cButton:hover {
+	text-decoration: none;
+	padding: 2px;
+	border: solid 1px white;
+	margin: 0px 0px 0px 0px;
+	background-color: darkblue;
+}
+
+.doButton:hover {
+	text-decoration: none;
+	padding: 2px;
+	border: solid 1px white;
+	margin: 0px 0px 0px 0px;
+	background-color: darkred;
+}
+
+.toolBar {
+	height: 25px;
+	width: auto;
+	text-align: center;
+}
+
+.mainSection {
+	text-align: center;
+}
+
+#myCanvas {
+	border: 10px solid #663300;
+ 	background-image: url(blackboard.jpg);
+	box-shadow: 10px 10px 5px #555;
+}
